@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapchat Login</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login-background">
+        <div class="login-container">
+            <div class="login-box">
+                <h1 class="login-title">Snapchat</h1>
+                <form id="loginForm">
+                    <div class="input-container">
+                        <input type="text" id="username" placeholder="Username" required>
+                        <span class="input-icon">
+                            <img src="username-icon.png" alt="Username Icon">
+                        </span>
+                    </div>
+                    <div class="input-container">
+                        <input type="password" id="password" placeholder="Password" required>
+                        <span class="input-icon">
+                            <img src="password-icon.png" alt="Password Icon">
+                        </span>
+                    </div>
+                    <div class="error-message" id="errorMessage"></div>
+                    <button type="submit" class="login-button">Log In</button>
+                </form>
+                <div class="forgot-password">
+                    <a href="#">Forgot Password?</a>
+                </div>
+                <div class="signup-link">
+                    <p>New to Snapchat? <a href="#">Sign up</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
